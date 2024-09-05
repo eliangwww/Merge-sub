@@ -10,10 +10,10 @@ let CFPORT = process.env.CFPORT || "8443";        // 优选ip或优选域名
 
 // 订阅链接数组
 const subscriptions = [
-  'https://www.bing.com/sub',         // 此处备注名称
-  'https://www.sina.com/sub',         // 此处备注名称
-  'https://www.yahoo.com/sub',        // 此处备注名称
-  'https://www.sougou.com/sub'        // 此处备注名称
+  'https://domain.cfip.nyc.mn/6666/clash',         // 此处备注名称
+  '',         // 此处备注名称
+  '',        // 此处备注名称
+  ''        // 此处备注名称
   
    // 继续添加更多订阅链接
 ];
