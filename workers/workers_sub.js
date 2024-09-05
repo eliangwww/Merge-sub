@@ -2,20 +2,20 @@
 // 部署完成后在网址后面加上这个，获取自建节点和订阅链接节点，域名/?token=merge&tag=sub
 // 部署完成后在网址后面加上这个，只获取自建节点，域名/?token=merge-sub
 
-const mytoken = 'merge';          //可以随便取,不能为空
+const mytoken = '6666';          //可以随便取,不能为空
 const tgbottoken ='';            //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 const tgchatid ='';             //可以为空，或者@userinfobot中获取，/start
 
 //自建节点，可以为空
 const MainData = `
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkFjdGl2bm9kZXMtTkwtQWR2aW5fU2VydmljZXMiLA0KICAiYWRkIjogInNray5tb2UiLA0KICAicG9ydCI6IC
+
 
 `
 
 //订阅链接，可多个，也可为0
 const urls = [
 
-  'https://www.google.com/sub',           // 备注名称
+  'https://domain.cfip.nyc.mn/6666/clash',           // 备注名称
   'hhttps://www.google.com/sub',         // 备注名称
   'https://www.google.com/sub',         // 备注名称
   'https://www.google.com/sub'         // 备注名称
